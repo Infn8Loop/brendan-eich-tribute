@@ -1,0 +1,40 @@
+body {
+  font-family: "Arial Black", Gadget, sans-serif;
+  color: #212121;
+  background: rgb(167,207,223); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(167,207,223,1) 0%, rgba(35,83,138,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(167,207,223,1) 0%,rgba(35,83,138,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(167,207,223,1) 0%,rgba(35,83,138,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7cfdf', endColorstr='#23538a',GradientType=0 ); /* IE6-9 */
+}
+.container {
+  background-color: #E0E0E0;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  border-radius: 50px;
+  border: 2px solid #212121;
+}
+h1 {
+  display: block;
+}
+.main-image img{
+    text-align: center;
+    display: block;
+    margin: auto;
+    border-radius: 50px;
+    border: 10px solid #212121;
+    
+}
+.header-text {
+  padding: 30px;
+  text-shadow: 1px 2px 3px #424242;
+}
+.content {
+  padding: 10px;
+}
+.content p{
+  text-align: justify;
+}
+#trigger2 {
+  text-align: center !important;
+}
